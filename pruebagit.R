@@ -4,3 +4,31 @@ install.packages("jsonlite", type = "source")
 hola<-1
 
 getwd()
+
+nuevo_dir <- "c:/clase1"
+setwd(nuevo_dir)
+
+if (file.exists (nuevo_dir)) {
+  cat("Directorio creado correctamente: " , nuevo_dir, "\n")
+} else {
+  cat("Fallo al crear directorio: ", nuevo_dir, "\n")
+}
+
+valor_suma <- 10+20
+print(valor_suma)
+valor_resta <- 20-10
+print(valor_resta)
+valor_mult <- 20*10
+print(valor_mult)
+valor_div <- 20/10
+print(valor_div)
+
+resultado_potencia <- 2^3
+print(resultado_potencia)
+resultado_raiz <- sqrt(16)
+print(resultado_raiz)
+
+valor1= 10
+valor2= 20
+
+valor1 == valor2
