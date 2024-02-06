@@ -50,4 +50,10 @@ matriz1 <- matrix(c(1,2,3,4,5,6),
 
 matriz1
 
+data_frame <- data.frame(
+  nombre = c("Ringo","George","Paul"),
+  edad = c(21,24,22),
+  aprobado = c(FALSE,FALSE,FALSE)
+)
+print(data_frame)
 
