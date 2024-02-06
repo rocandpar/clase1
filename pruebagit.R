@@ -32,3 +32,7 @@ valor1= 10
 valor2= 20
 
 valor1 == valor2
+
+vector <- c(1,2,3,4,5)
+resultado_comp_vectores <-3 %in% vector
+print(resultado_comp_vectores)
