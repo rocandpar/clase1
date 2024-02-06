@@ -36,3 +36,18 @@ valor1 == valor2
 vector <- c(1,2,3,4,5)
 resultado_comp_vectores <-3 %in% vector
 print(resultado_comp_vectores)
+
+a <- b <- 30
+a <- b <- "ambar"
+a <- b <- "dolmen"
+
+vector <- c("espato",1,"cobre","variscita","cuarcita","malaquita")
+typeof(vector)
+
+matriz1 <- matrix(c(1,2,3,4,5,6), 
+                  nrow = 2, ncol= 3, 
+                  byrow = F)
+
+matriz1
+
+
